@@ -435,7 +435,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url('/images/about_us_bg.png');
+    background-image: url(/Page_Replacement_Algos/images/about_us_bg.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
