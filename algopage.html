@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithms</title>
+    <link rel="stylesheet" href="css_files/style.css">
+    <link rel="stylesheet" href="css_files/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="left_nav">
+            <ul>
+                <li><a href="index.html">TEAM 7</a></li>
+            </ul>
+        </div>
+        <div class="center_nav">
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="terminologies.html">
+                    <li>Terminologies</li>
+                </a>
+                <a href="algopage.html">
+                    <li>Algorithms</li>
+                </a>
+                <a href="simulation.html">
+                    <li>Simulation</li>
+                </a>
+                <a href="index.html#about_head">
+                    <li>About Us</li>
+                </a>
+            </ul>
+        </div>
+        <div class="right_nav" style="display: block;">
+            <ul>
+                <div class="voicenav">
+                    <li><img src="images/mic_icon.png" alt="Voice Icon" class="mic_icon"></li>
+                    <div class="hidden_info">
+                        <li><b>Voice Navigation</b></li>
+                        <hr>
+                        <li>"Go to Home Page" - for Home Page</li>
+                        <li>"Go to Terminologies Page" - for Terminologies Page</li>
+                        <li>"Go to Algorithms Page" - for Algorithms Page</li>
+                        <li>"Go to Simulation Page" - for Simulation Page</li>
+                        <li>"Go to About Page" - for About Us Page</li>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+    <div class="algos">
+        <div class="algo_heading">
+            Algorithms
+        </div>
+        <div class="algo1" id="fifo_algo">
+            <div class="algo_items">
+                <div class="left_algo">
+                    <h1 id="fifo">First In First Out (FIFO)</h1>
+                    <p>FIFO algorithm is the simplest of all the page replacement algorithms. In this, we maintain a
+                        queue of all the pages that are in the memory currently. The oldest page in the memory is at the
+                        front-end of the queue and the most recent page is at the back or rear-end of the queue.</p>
+                    <p>Whenever a page fault occurs, the operating system looks at the front-end of the queue to know
+                        the page to be replaced by the newly requested page. It also adds this newly requested page at
+                        the rear-end and removes the oldest page from the front-end of the queue.</p>
+                    <h3>Advantages:</h3>
+                    <ul>
+                        <li>It is simple and easy to understand & implement.</li>
+                        <li>FIFO does not cause more overhead.</li>
+                    </ul>
+                    <h3>Disadvantages:</h3>
+                    <ul>
+                        <li>This algorithm does not make the use of the frequency of last used time rather it just
+                            replaces the Oldest Page.
+                        </li>
+                        <li>There is an increase in page faults as page frames increases.</li>
+                        <li>The performance of this algorithm is the worst.</li>
+                        <li>Suffers from Belady’s anomaly.</li>
+                    </ul>
+                </div>
+                <div class="right_algo">
+                    <img src="images/fifo_ex_image.png" alt="FIFO Image">
+                    <div class="buttons">
+                        <a href="simulation.html">
+                            <button id="button1">
+                                SIMULATE
+                            </button>
+                        </a>
+                        <a href="index.html">
+                            <button id="button2">
+                                BACK
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="algo2" id="lifo_algo">
+            <div class="algo_items">
+                <div class="left_algo">
+                    <img src="images/lifo_ex_image.png" alt="LIFO Image">
+                    <div class="buttons">
+                        <a href="simulation.html">
+                            <button id="button1">
+                                SIMULATE
+                            </button>
+                        </a>
+                        <a href="index.html">
+                            <button id="button2">
+                                BACK
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="right_algo">
+                    <h1 id="lifo">Last In First Out (LIFO)</h1>
+
+                    <p>This is the Last in First Out algorithm and works on LIFO principles. In this algorithm, the
+                        newest page is replaced by the requested page. Usually, this is done through a stack, where we
+                        maintain a stack of pages currently in the memory with the newest page being at the top.
+                        Whenever a page fault occurs, the page at the top of the stack is replaced.</p>
+                    <h3>Advantages:</h3>
+                    <ul>
+                        <li>Simple to understand.</li>
+                        <li>Easy to implement.</li>
+                        <li>No overhead</li>
+
+                    </ul>
+                    <h3>Disadvantages:</h3>
+                    <ul>
+                        <li>Does not consider Locality principle, hence may produce worst performance.</li>
+                        <li>The old pages may reside in memory forever even if they are not used.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="algo3" id="optimal_algo">
+            <div class="algo_items">
+                <div class="left_algo">
+                    <h1 id="opr">Optimal Page Replacement (OPR)</h1>
+                    <p>Optimal page replacement is the best page replacement algorithm as this algorithm results in the
+                        least number of page faults. In this algorithm, the pages are replaced with the ones that will
+                        not be used for the longest duration of time in the future. In simple terms, the pages that will
+                        be referred farthest in the future are replaced in this algorithm.</p>
+                    <h3>Advantages:</h3>
+                    <ul>
+                        <li>This algorithm is easy to use.
+                        </li>
+                        <li>This algorithm provides excellent efficiency and is less complex.
+                        </li>
+                        <li>For the best result, the implementation of data structures is very easy.</li>
+                    </ul>
+                    <h3>Disadvantages:</h3>
+                    <ul>
+                        <li>In this algorithm future awareness of the program is needed.</li>
+                        <li>Practical Implementation is not possible because the operating system is unable to track the
+                            future request.</li>
+                    </ul>
+                </div>
+                <div class="right_algo">
+                    <img src="images/optimal_ex_image.png" alt="OPR Image">
+                    <div class="buttons">
+                        <a href="simulation.html">
+                            <button id="button1">
+                                SIMULATE
+                            </button>
+                        </a>
+                        <a href="index.html">
+                            <button id="button2">
+                                BACK
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="algo4" id="lru_algo">
+            <div class="algo_items">
+                <div class="left_algo">
+                    <img src="images/lru_ex_image.png" alt="LRU Image">
+                    <div class="buttons">
+                        <a href="simulation.html">
+                            <button id="button1">
+                                SIMULATE
+                            </button>
+                        </a>
+                        <a href="index.html">
+                            <button id="button2">
+                                BACK
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="right_algo">
+                    <h1 id="lru">Least Recently Used (LRU)</h1>
+                    <p>The least recently used page replacement algorithm keeps the track of usage of pages over a
+                        period of time. This algorithm works on the basis of the principle of locality of a reference
+                        which states that a program has a tendency to access the same set of memory locations
+                        repetitively over a short period of time. So pages that have been used heavily in the past are
+                        most likely to be used heavily in the future also.</p>
+
+                    <p>In this algorithm, when a page fault occurs, then the page that has not been used for the longest
+                        duration of time is replaced by the newly requested page.</p>
+                    <h3>Advantages:</h3>
+                    <ul>
+                        <li>It is an efficient technique.</li>
+                        <li>With this algorithm, it becomes easy to identify the faulty pages that are not needed for a
+                            long time.</li>
+                        <li>It helps in Full analysis.
+                        </li>
+                    </ul>
+                    <h3>Disadvantages:</h3>
+                    <ul>
+                        <li>It is expensive and has more complexity.</li>
+                        <li>There is a need for an additional data structure.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="last_gradient"></div>
+</body>
+<!-- <script type="text/javascript" src="javascript//all-js.js"></script> -->
+<script src="javascript/speechToNavigation.js"></script>
+
+</html>

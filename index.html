@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css_files/style.css">
+    <link rel="stylesheet" href="css_files/responsive.css">
+</head>
+
+<body>
+    <!-- header -->
+    <div class="navbar">
+        <div class="left_nav">
+            <ul>
+                <li><a href="index.html">TEAM 7</a></li>
+            </ul>
+        </div>
+        <div class="center_nav">
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="terminologies.html">
+                    <li>Terminologies</li>
+                </a>
+                <a href="algopage.html">
+                    <li>Algorithms</li>
+                </a>
+                <a href="simulation.html">
+                    <li>Simulation</li>
+                </a>
+                <a href="index.html#about_head">
+                    <li>About Us</li>
+                </a>
+            </ul>
+        </div>
+        <div class="right_nav" style="display: block;">
+            <ul>
+                <div class="voicenav">
+                    <li><img src="images/mic_icon.png" alt="Voice Icon" class="mic_icon"></li>
+                    <div class="hidden_info">
+                        <li><b>Voice Navigation</b></li>
+                        <hr>
+                        <li>"Go to Home Page" - for Home Page</li>
+                        <li>"Go to Terminologies Page" - for Terminologies Page</li>
+                        <li>"Go to Algorithms Page" - for Algorithms Page</li>
+                        <li>"Go to Simulation Page" - for Simulation Page</li>
+                        <li>"Go to About Page" - for About Us Page</li>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <!-- header end-->
+
+
+    <div class="home" id="id_home">
+        <div class="intro">
+            <div class="container">
+                <div class="intro_left">
+                    <h1>Page Replacement Algorithm</h1>
+                    <p>The page replacement algorithm decides which memory page is to be replaced. The process of
+                        replacement is sometimes called swap out or write to disk. Page replacement is done when the
+                        requested page is not found in the main memory (page fault). The page replacement is done by
+                        swapping the required pages from backup storage to main memory and vice-versa. </p>
+                    <li>Page replacement prevents the over-allocation of the memory by modifying the page-fault service
+                        routine.</li>
+                    <li>To reduce the overhead of page replacement a modify bit (dirty bit) is used in order to indicate
+                        whether each page is modified.
+                    </li>
+                    <li>This technique provides complete separation between logical memory and physical memory.</li>
+                    <a href="terminologies.html">
+                        <button id="moreinfo_btn">
+                            MORE INFO
+                        </button>
+                    </a>
+                </div>
+                <div class="intro_right">
+                    <img src="images/intro_pg_image.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="types">
+            <div id="types_head">Types of Algorithm</div>
+            <div class="types_grid">
+                <div class="item">
+                    <div class="head">
+                        <img src="images/Fifo_Icon.png" alt="logo">
+                        <h3>First In First Out</h3>
+                    </div>
+                    <div id="item_para">This is the simplest page replacement algorithm. In this algorithm, the
+                        operating system keeps track of all pages in the memory in a queue, the oldest page is in the
+                        front of the queue. When a page needs to be replaced page in the front of the queue is selected
+                        for removal. </div>
+                    <div class="buttons">
+                        <a href="algopage.html#fifo">
+                            <button id="button1">
+                                MORE INFO
+                            </button>
+                        </a>
+                        <a href="simulation.html">
+                            <button id="button2">
+                                SIMULATE
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="head">
+                        <img src="images/Lifo_Icon.png" alt="logo">
+                        <h3>Last In First Out</h3>
+                    </div>
+                    <div id="item_para">This is the Last in First Out algorithm and works on LIFO principles. In this
+                        algorithm, the newest page is replaced by the requested page. This is done through a stack,
+                        where we maintain a stack of pages currently in the memory with the newest page being at the
+                        top.</div>
+                    <div class="buttons">
+                        <a href="algopage.html#lifo">
+                            <button id="button1">
+                                MORE INFO
+                            </button>
+                        </a>
+                        <a href="simulation.html">
+                            <button id="button2">
+                                SIMULATE
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="head">
+                        <img src="images/optimal_img.png" alt="logo">
+                        <h3>Optimal Page Replacement</h3>
+                    </div>
+                    <div id="item_para">In this algorithm, pages are replaced which would not be used for the longest
+                        duration of time in the future. The use of Optimal Page replacement is to set up a benchmark so
+                        that other replacement algorithms can be analyzed against it.</div>
+                    <div class="buttons">
+                        <a href="algopage.html#opr">
+                            <button id="button1">
+                                MORE INFO
+                            </button>
+                        </a>
+                        <a href="simulation.html">
+                            <button id="button2">
+                                SIMULATE
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="head">
+                        <img src="images/lru_img.png" alt="logo">
+                        <h3>Least Recently Used</h3>
+                    </div>
+                    <div id="item_para">The least recently used page replacement algorithm keeps the track of usage of
+                        pages over a period of time. Working is on basis of reference which states that a program has a
+                        tendency to access the same set of memory locations repetitively over a short period of time.
+                    </div>
+                    <div class="buttons">
+                        <a href="algopage.html#lru">
+                            <button id="button1">
+                                MORE INFO
+                            </button>
+                        </a>
+                        <a href="simulation.html">
+                            <button id="button2">
+                                SIMULATE
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about">
+            <div id="about_head">
+                About Us
+            </div>
+            <div class="person_info">
+                <div class="person">
+                    <img src="images/harsh.png" alt="image">
+                    <h3>Harsh Baheti</h3>
+                    <h5>20BCP065</h5>
+                </div>
+                <div class="person">
+                    <img src="images/kunal.png" alt="image">
+                    <h3>Kunal Gupta</h3>
+                    <h5>20BCP068</h5>
+                </div>
+                <div class="person">
+                    <img src="images/vaishvi (1).png" alt="image">
+                    <h3>Vaishvi Shah</h3>
+                    <h5>20BCP071</h5>
+                </div>
+                <div class="person">
+                    <img src="images/rushi.png" alt="image">
+                    <h3>Rushi Thakkar</h3>
+                    <h5>20BCP045</h5>
+                </div>
+                <div class="person">
+                    <img src="images/satvi.png" alt="image">
+                    <h3>Satvi Makati</h3>
+                    <h5>20BCP051</h5>
+                </div>
+                <div class="person">
+                    <img src="images/tushya.png" alt="image">
+                    <h3>Tushya Gandhi</h3>
+                    <h5>20BCP058</h5>
+                </div>
+            </div>
+            <div class="gototop">
+                <a href="#id_home">
+                    <button id="topbutton">
+                        GO TO TOP
+                    </button>
+                </a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            Page Replacement Algorithm Website by Group2 - Team7
+        </div>
+    </div>
+</body>
+<!-- <script type="text/javascript" src="javascript//all-js.js"></script> -->
+<script src="javascript/speechToNavigation.js"></script>
+
+</html>

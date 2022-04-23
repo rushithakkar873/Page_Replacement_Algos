@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css_files/style.css">
+    <link rel="stylesheet" href="css_files/responsive.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="left_nav">
+            <ul>
+                <li><a href="index.html">TEAM 7</a></li>
+            </ul>
+        </div>
+        <div class="center_nav">
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="terminologies.html">
+                    <li>Terminologies</li>
+                </a>
+                <a href="algopage.html">
+                    <li>Algorithms</li>
+                </a>
+                <a href="simulation.html">
+                    <li>Simulation</li>
+                </a>
+                <a href="index.html#about_head">
+                    <li>About Us</li>
+                </a>
+            </ul>
+        </div>
+        <div class="right_nav" style="display: block;">
+            <ul>
+                <div class="voicenav">
+                    <li><img src="images/mic_icon.png" alt="Voice Icon" class="mic_icon"></li>
+                    <div class="hidden_info">
+                        <li><b>Voice Navigation</b></li>
+                        <hr>
+                        <li>"Go to Home Page" - for Home Page</li>
+                        <li>"Go to Terminologies Page" - for Terminologies Page</li>
+                        <li>"Go to Algorithms Page" - for Algorithms Page</li>
+                        <li>"Go to Simulation Page" - for Simulation Page</li>
+                        <li>"Go to About Page" - for About Us Page</li>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+    <div class="simulate">
+        <div class="sim_heading">
+            Simulator
+        </div>
+        <div class="input">
+            <div class="algo">
+                <label for="algorithm">Algorithm</label>
+                <select name="myAlgo" id="algoo">
+                    <option value="  " selected></option>
+                    <option value="fifo">First In First Out</option>
+                    <option value="lifo">Last In First Out</option>
+                    <option value="optimal">Optimal PRA</option>
+                    <option value="lru">Least Recently Used</option>
+                </select>
+            </div>
+            <div class="values">
+                <label for="frames">No. of Frames :</label>
+                <input type="number" min="1" name="myFrames" id="frames">
+                <label for="string">Enter String :</label>
+                <input type="text" name="myString" placeholder="with spacing" id="string" onclick="recordString()">
+            </div>
+            <div class="resetsubmit">
+                <div class="reset" id="reset" onclick="RefreshPage()">
+                    <input type="reset" value="RESET">
+                </div>
+                <div class="submit" id="submit" onclick="valueHandling()">
+                    <input type="submit" value="SUBMIT">
+                </div>
+            </div>
+        </div>
+        <div class="body1" id="body1">
+            <div class="body-title1">
+                Output
+            </div>
+            <div class="output">
+                <div class="head" id="the-algo">
+                    <p id="algo" style="display: none;">Algorithm :</p>
+                    <p id="frame" style="display: none;">Number of frames :</p>
+                    <p id="reference" style="display: none;">String :</p>
+                </div>
+                <br />
+                <table width="50%" id="tab" style="display: none;" border="none" style="align-content: center"
+                    class="w3-container w3-center w3-animate-opacity">
+                    <tr id="req" style="background-color: #4638B5">
+                        <td>Requests</td>
+                    </tr>
+                </table>
+
+                <div class="num-n-left" id="nums">
+                    <p id="faults" style="display: none;">Page fault : </p>
+                    <p class="text-danger" style="display: none;" id="faultrate">Page fault Rate :</p>
+                </div>
+                <div class="num-n-right" id="nums2">
+                    <p class="text-success" style="display: none;" id="hits">Page Hit :</p>
+                    <p class="text-success" style="display: none;" id="hitrate">Page Hit Rate :</p>
+                </div>
+
+                <div class="graphbox">
+                    <canvas id="myChart" style="display: none ; width:100%;max-width:600px" ;></canvas>
+                </div>
+
+                <a href="algopage.html">
+                    <button id="goback">
+                        BACK
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="last_gradient"></div>
+    <script src="javascript/sim.js"></script>
+    <script src="javascript/fifo.js"></script>
+    <script src="javascript/optimal.js"></script>
+    <script src="javascript/lifo.js"></script>
+    <script src="javascript/lru.js"></script>
+    <!-- <script type="text/javascript" src="javascript/all-js.js"></script> -->
+    <script src="javascript/speechToNavigation.js"></script>
+</body>
+
+</html>

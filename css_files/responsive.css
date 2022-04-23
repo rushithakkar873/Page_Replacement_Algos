@@ -1,0 +1,357 @@
+/*res*/
+@media(min-width:2560px){
+}      
+@media(min-width:2000px) and (max-width:2560px){
+}
+@media(min-width:1800px) and (max-width:1999px){
+}
+@media(min-width:1551px) and (max-width:1799px){
+}
+@media(min-width:1351px) and (max-width:1550px){
+}
+@media(min-width:1200px) and (max-width:1350px){
+    /*terminologies page*/
+    .pra_content{width: 100%;}
+    .terms .terms_heading,
+    .pra_info .prainfo_heading{font-size: 30px;}
+
+    .pra_content p{width: 40%;}
+    .pra_content img{width: 60%; object-fit: contain;}
+    /*terminologies page end*/
+    /*algopage*/
+    .algos .algo_heading{font-size: 30px;}
+    /*algopage end*/
+}
+@media(min-width:1025px) and (max-width:1199px){
+    /*home page*/
+    .intro .intro_left{ width: 60%;padding-right: 25px;}
+    .intro .intro_right{width: 40%;}
+    .intro .intro_left h1{font-size: 36px;}
+    /*home page end*/
+    /*terminologies page*/
+    .pra_info{margin: 150px auto 100px; width: 930px; max-width: 100%; padding: 0 15px;}
+    .pra_content{width: 100%;}
+    .terms .terms_heading,
+    .pra_info .prainfo_heading{font-size: 30px;}
+
+    .pra_content p{width: 40%;}
+    .pra_content img{width: 60%; object-fit: contain;}
+    /*terminologies page end*/
+    /*algopage*/
+    .algos .algo2 .right_algo h1, .algos .algo2 .right_algo h3, .algos .algo4 .right_algo h1, .algos .algo4 .right_algo h3,
+    .algos .algo1 .left_algo h1, .algos .algo1 .left_algo h3, .algos .algo3 .left_algo h1, .algos .algo3 .left_algo h3,
+    .algos .algo_heading{font-size: 30px;}
+    .algos .algo_heading{margin-bottom: 40px;}
+    .algo2, .algo4, .algo3,
+    .algo1{margin-top: 0; height: auto;}
+    .algos .algo2 .algo_items, .algos .algo4 .algo_items{margin: 20px auto;}
+
+    .algos .algo2 .right_algo, .algos .algo4 .right_algo,
+    .algos .algo1 .right_algo, .algos .algo3 .right_algo,
+    .algos .algo1 .left_algo, .algos .algo3 .left_algo{width: 50%; margin: 0px; padding: 30px;}
+
+    .algos .algo1 .right_algo img, .algos .algo3 .right_algo img{height: auto;}
+    /*algopage end*/
+}
+@media(min-width:992px) and (max-width:1024px){
+    /*home page*/
+    .intro .intro_left{ width: 60%;padding-right: 25px;}
+    .intro .intro_right{width: 40%;}
+    .intro .intro_left h1{font-size: 36px;}
+    /*home page end*/
+    /*terminologies page*/
+    .pra_info{margin: 150px auto 100px; width: 930px; max-width: 100%; padding: 0 15px;}
+    .pra_content{width: 100%;}
+    .terms .terms_heading,
+    .pra_info .prainfo_heading{font-size: 30px;}
+
+    .pra_content p{width: 40%;}
+    .pra_content img{width: 60%; object-fit: contain;}
+    /*terminologies page end*/
+    /*algopage*/
+    .algos .algo2 .right_algo h1, .algos .algo2 .right_algo h3, .algos .algo4 .right_algo h1, .algos .algo4 .right_algo h3,
+    .algos .algo1 .left_algo h1, .algos .algo1 .left_algo h3, .algos .algo3 .left_algo h1, .algos .algo3 .left_algo h3,
+    .algos .algo_heading{font-size: 30px;}
+    .algos .algo_heading{margin-bottom: 40px;}
+    .algo2, .algo4, .algo3,
+    .algo1{margin-top: 0; height: auto;}
+    .algos .algo2 .algo_items, .algos .algo4 .algo_items{margin: 20px auto;}
+
+    .algos .algo2 .left_algo, .algos .algo4 .left_algo,
+    .algos .algo2 .right_algo, .algos .algo4 .right_algo,
+    .algos .algo1 .right_algo, .algos .algo3 .right_algo,
+    .algos .algo1 .left_algo, .algos .algo3 .left_algo{width: 50%; margin: 0px; padding: 30px;}
+
+    .algos .algo1 .right_algo img, .algos .algo3 .right_algo img{height: auto;}
+    /*algopage end*/
+    /*simulation*/
+    .graph{
+        margin: 50px auto 0;
+    }
+    /*simulation end*/
+}
+@media(min-width:768px) and (max-width:991px){
+    /*header*/
+    .navbar .left_nav ul{padding-left: 0;}
+    .navbar .center_nav{margin-right: 10px;}
+    .navbar a{margin: 0px 10px;}
+    /*header end*/
+    /*home page*/
+    .intro{padding: 150px 0px 200px;}
+    .intro .intro_left{ width: 60%;padding-right: 25px;padding-left: 25px;}
+    .intro .intro_right{width: 40%;}
+    .intro .intro_left h1{font-size: 26px;}
+    .intro .intro_left li,
+    .intro .intro_left p{font-size: 14px;}
+    .types #item_para{font-size: 14px; line-height: 24px;}
+
+    .types .item .head h3{font-size: 22px;}
+
+    .about .person_info{grid-template-columns: 1fr 1fr 1fr;}
+    .about .person_info div{margin-bottom: 10px;}
+    /*home page end*/
+    /*terminologies page*/
+    .pra_info{margin: 150px auto 100px; width: 930px; max-width: 97%; padding: 0 15px;}
+    .pra_content{width: 100%;}
+    .terms .terms_heading,
+    .pra_info .prainfo_heading{font-size: 30px;}
+
+    .pra_content p{width: 40%;}
+    .pra_content img{width: 60%; object-fit: contain;}
+
+    .terms .termtypes{grid-column-gap: 15px; padding: 0 15px 50px;}
+    .type{ margin: 0 0 15px;}
+    /*terminologies page end*/
+    /*algopage*/
+    .algos .algo2 .right_algo h1, .algos .algo2 .right_algo h3, .algos .algo4 .right_algo h1, .algos .algo4 .right_algo h3,
+    .algos .algo1 .left_algo h1, .algos .algo1 .left_algo h3, .algos .algo3 .left_algo h1, .algos .algo3 .left_algo h3{
+        font-size: 24px;
+    }
+    .algos .algo_heading{font-size: 30px;}
+    .algos .algo_heading{margin-bottom: 40px;}
+    .algo2, .algo4, .algo3,
+    .algo1{margin-top: 0; height: auto;}
+    .algos .algo2 .algo_items, .algos .algo4 .algo_items{margin: 20px auto;}
+
+    .algos .algo2 .left_algo, .algos .algo4 .left_algo,
+    .algos .algo2 .right_algo, .algos .algo4 .right_algo,
+    .algos .algo1 .right_algo, .algos .algo3 .right_algo,
+    .algos .algo1 .left_algo, .algos .algo3 .left_algo{width: 50%; margin: 0px; padding: 30px;}
+
+    .algos .algo1 .right_algo img, .algos .algo3 .right_algo img{height: auto;}
+    /*algopage end*/
+    /*simulation*/
+    .graph{
+        margin: 50px auto 0;
+    }
+    .output{margin: 70px 0 0; flex-wrap: wrap; justify-content: center;}
+    .output .head,.output .box,
+    .output a{margin-top: 10px;}
+
+    .sim_heading{font-size: 30px;}
+    #algoo,
+    #frames,
+    #string{margin-left: 5px;}
+    .algo,
+    .values{margin: 0 auto 20px; padding: 0; display: table;}
+    /*simulation end*/
+}
+@media(min-width:448px) and (max-width:767px){
+    /*header*/
+    .navbar .left_nav ul{padding-left: 0;}
+    .navbar .center_nav{margin-right: 10px; display: none;}
+    .navbar .right_nav{display: block; margin-right: 15px;}
+    .navbar a{margin: 0px 10px;}
+
+    .content{flex-wrap: wrap;}
+    .content img{margin: 90px 0 0;}
+    .content .content1{padding: 10px;}
+    /*header end*/
+    /*home page*/
+    .intro{padding: 50px 0px; height: auto;}
+    .intro .container{flex-wrap: wrap;}
+    .intro .intro_left{padding-right: 25px;}
+    /* .intro .intro_right{} */
+    .intro .intro_left h1{font-size: 26px; padding: 50px 30px 11px 30px;}
+    .intro .intro_left li,
+    .intro .intro_left p{font-size: 14px;}
+    .types #item_para{font-size: 14px; line-height: 24px;}
+
+    .about #about_head,
+    .types #types_head{font-size: 30px;}
+    .types .types_grid{ grid-template-columns: 1fr; grid-template-rows: 1fr;}
+    .types .item .head h3{font-size: 22px;}
+
+    .about .person_info{grid-template-columns: 1fr 1fr;}
+    .about .person_info div{margin-bottom: 10px;}
+    /*home page end*/
+    /*terminologies page*/
+    .pra_info{margin: 150px auto 100px; width: 930px; max-width: 97%; padding: 0 15px;}
+    .pra_content{width: 100%; height: auto; display: block; padding: 0 0 40px;}
+    .terms .terms_heading,
+    .pra_info .prainfo_heading{font-size: 24px;}
+
+    .pra_content p{width: 100%; margin: 0 0 10px;}
+    .pra_content img{width: 100%; object-fit: contain; margin: 0 auto; padding: 0 15px;}
+
+    .terms .termtypes{grid-column-gap: 15px; padding: 0 15px 50px; grid-template-columns: 1fr; grid-template-rows: 1fr;}
+    .type{ margin: 0 0 15px;}
+    /*terminologies page end*/
+    /*algopage*/
+    .algos .algo2 .right_algo h1, .algos .algo2 .right_algo h3, .algos .algo4 .right_algo h1, .algos .algo4 .right_algo h3,
+    .algos .algo1 .left_algo h1, .algos .algo1 .left_algo h3, .algos .algo3 .left_algo h1, .algos .algo3 .left_algo h3{
+        font-size: 24px;
+    }
+    .algos .algo_heading{font-size: 30px;}
+    .algos .algo_heading{margin-bottom: 40px;}
+    .algo2, .algo4, .algo3,
+    .algo1{margin-top: 0; height: auto;}
+    .algos .algo1 .algo_items, .algos .algo3 .algo_items,
+    .algos .algo2 .algo_items, .algos .algo4 .algo_items{margin: 20px auto; max-width: 95%;}
+
+    .algos .algo2 .left_algo, .algos .algo4 .left_algo,
+    .algos .algo2 .right_algo, .algos .algo4 .right_algo,
+    .algos .algo1 .right_algo, .algos .algo3 .right_algo,
+    .algos .algo1 .left_algo, .algos .algo3 .left_algo{width: 100%; margin: 0px; padding: 30px;}
+
+    .algos .algo2 .left_algo img, .algos .algo4 .left_algo img,
+    .algos .algo1 .right_algo img, .algos .algo3 .right_algo img{height: auto; margin-top: 0px;}
+
+    .algos .algo2 .algo_items, .algos .algo4 .algo_items,
+    .algos .algo1 .algo_items, .algos .algo3 .algo_items{display: block;}
+    /*algopage end*/
+    /*preload*/
+    .preloader #heading{
+        font-size: 24px;
+        text-align: center;
+    }
+    /*preload end*/
+    /*simulation*/
+    .graph{
+        margin: 50px auto 0;
+    }
+    .output{margin: 70px 0 0; flex-wrap: wrap; justify-content: center;}
+    .output .head,.output .box,
+    .output a{margin-top: 10px;}
+
+    .sim_heading{font-size: 30px;}
+    #algoo,
+    #frames,
+    #string{margin-left: 5px;}
+    .algo,
+    .submit,
+    .values{margin: 0 auto 20px; padding: 0; display: table;}
+    /*simulation end*/
+}
+@media(max-width:447px){
+    /*header*/
+    .navbar .left_nav ul{padding-left: 0;}
+    .navbar .center_nav{margin-right: 10px; display: none;}
+    .navbar .right_nav{display: block; margin-right: 15px;}
+    .navbar a{margin: 0px 10px;}
+
+    .content{flex-wrap: wrap;}
+    .content img{margin: 90px 0 0;}
+    .content .content1{padding: 10px;}
+    /*header end*/
+    /*home page*/
+    .intro{padding: 50px 0px; height: auto;}
+    .intro .container{flex-wrap: wrap;}
+    .intro .intro_left{padding-right: 25px;}
+    /* .intro .intro_right{} */
+    .intro .intro_left h1{font-size: 26px; padding: 50px 30px 10px 30px;}
+    .intro .intro_left li,
+    .intro .intro_left p{font-size: 14px;}
+    .types #item_para{font-size: 14px; line-height: 24px;}
+
+    .about #about_head,
+    .types #types_head{font-size: 24px;}
+    .types .types_grid{ grid-template-columns: 1fr; grid-template-rows: 1fr;}
+    .types .item .head h3{font-size: 22px;}
+    .types .item{padding: 20px 15px;}
+
+    .about .person_info{grid-template-columns: 1fr;}
+    .about .person_info div{margin-bottom: 10px;}
+
+    .item #button1, .item #button2{width: 110px;}
+
+    .copyright{height: auto;padding: 10px 15px; text-align: center; font-size: 14px;}
+    /*home page end*/
+    /*terminologies page*/
+    .pra_info{margin: 150px auto 100px; width: 930px; max-width: 97%; padding: 0 15px;}
+    .pra_content{width: 100%; height: auto; display: block; padding: 0 0 40px;}
+    .terms .terms_heading,
+    .pra_info .prainfo_heading{font-size: 24px;}
+
+    .pra_content p{width: 100%; margin: 0 0 10px;}
+    .pra_content img{width: 100%; height: auto; margin: 0 auto 20px; padding: 0 15px;}
+
+    .terms .termtypes{grid-column-gap: 15px; padding: 0 15px 50px; grid-template-columns: 1fr; grid-template-rows: 1fr;}
+    .type{ margin: 0 0 15px;}
+    .terms .termtypes h1{font-size: 24px;}
+    .terms .termtypes .type{padding: 10px 15px;}
+
+    .simulate .buttons,
+    .terminology .button{display: block; padding:0 15px 40px;}
+    #compare, #goback,
+    .button #home_btn, .button #algo_btn{margin-bottom: 10px; width: 100%;}
+    /*terminologies page end*/
+    /*algopage*/
+    .algos .algo2 .right_algo h1, .algos .algo2 .right_algo h3, .algos .algo4 .right_algo h1, .algos .algo4 .right_algo h3,
+    .algos .algo1 .left_algo h1, .algos .algo1 .left_algo h3, .algos .algo3 .left_algo h1, .algos .algo3 .left_algo h3{
+        font-size: 20px;
+    }
+    .algos .algo_heading{font-size: 30px;}
+    .algos .algo_heading{margin-bottom: 40px;}
+    .algo2, .algo4, .algo3,
+    .algo1{margin-top: 0; height: auto;}
+    .algos .algo1 .algo_items, .algos .algo3 .algo_items,
+    .algos .algo2 .algo_items, .algos .algo4 .algo_items{margin: 20px auto; max-width: 95%;}
+
+    .algos .algo2 .left_algo, .algos .algo4 .left_algo,
+    .algos .algo2 .right_algo, .algos .algo4 .right_algo,
+    .algos .algo1 .right_algo, .algos .algo3 .right_algo,
+    .algos .algo1 .left_algo, .algos .algo3 .left_algo{width: 100%; margin: 0px; padding: 30px;}
+
+    .algos .algo2 .left_algo img, .algos .algo4 .left_algo img,
+    .algos .algo1 .right_algo img, .algos .algo3 .right_algo img{height: auto; margin-top: 0px;}
+
+    .algos .algo2 .algo_items, .algos .algo4 .algo_items,
+    .algos .algo1 .algo_items, .algos .algo3 .algo_items{display: block;}
+    /*algopage end*/
+    /*preload*/
+    .preloader #heading{
+        font-size: 24px;
+        text-align: center;
+    }
+    .preloader #tagline{
+        font-size: 14px;
+        text-align: center;
+    }
+    /*preload end*/
+    /*simulation*/
+    .graph{
+        margin: 50px auto 0;
+    }
+    .output{margin: 70px 0 0; flex-wrap: wrap; justify-content: center;}
+    .output .head,.output .box,
+    .output a{margin-top: 10px;}
+
+    .sim_heading{font-size: 30px;}
+    #algoo,
+    #frames,
+    #string{margin-left: 5px;}
+    .algo,
+    .submit,
+    .values{margin: 0 auto 20px; padding: 0; display: table;}
+
+    #algoo{width: 100%;}
+
+    .string,
+    .values{display: block; padding: 0 15px;}
+
+    #string,
+    #frames{width: 100%; margin: 0 0 10px; margin-bottom: 10px;}
+    /*simulation end*/
+}
+/*res end*/
